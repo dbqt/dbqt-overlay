@@ -35,6 +35,7 @@ I really liked Freakylay's version, but it had too much information for me, so I
 |f|do not display BPM|
 |g|do not display NJS|
 |h|do not display Combo|
+|i|flip to right alignment
 
 ### Other things
 Feel free to copy this overlay and change it further if you want to!
