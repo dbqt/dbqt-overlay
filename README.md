@@ -3,6 +3,8 @@ This was a fork and customization of [Freakylay](https://github.com/UnskilledFre
 
 I really liked Freakylay's version, but it had too much information for me, so I trimed the overlay and simplified it a lot.
 
+![dbqt-overlay preview gif](https://media.giphy.com/media/57l8R9YCoZwKOlxJR7/giphy.gif)
+
 ## Features
 
 - Change **background and font color like you want**, even with transparency
