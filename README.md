@@ -17,7 +17,7 @@ I really liked Freakylay's version, but it had too much information for me, so I
 ## How do I use this?
 
 - You need to install [kOFReadie's BSDataPuller](https://github.com/kOFReadie/BSDataPuller) first.
-- Then grab one of the latest release of this overlay.
+- Then grab one of the latest [release](https://github.com/dbqt/dbqt-overlay/releases) of this overlay.
 - Unzip the entire folder somewhere you want to keep it.
 - Open the index.html file with your favorite browser.
 - Double-click somewhere on the page. (You can close the settings panel simply by double-clicking anywhere)
