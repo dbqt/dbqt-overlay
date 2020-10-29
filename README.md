@@ -1,37 +1,27 @@
-# Freakylay
-An alternative and customizable overlay for [DataPuller Mod](https://github.com/kOFReadie/DataPuller) which lets you choose your own style.
+# Dbqt-Overlay
+This was a fork and customization of [Freakylay](https://github.com/UnskilledFreak/Freakylay).
 
-Its based on the [original overlay by kOF.Readie](https://github.com/kOFReadie/BSDP-Overlay) with some tweaks and a completely new way of displaying scores, combo, player health, accuracy and much more!
+I really liked Freakylay's version, but it had too much information for me, so I trimed the overlay and simplified it a lot.
 
 ## Features
 
-- change **background and font color like you want**, even with transparency
-- supports long and short names for modifiers (Instant Fail / IF)
-- if in practice mode, it displays the offset instead of the whole percentage
-    - 130% => +30%
-    - 80% => -20%
-- displays accuracy, player health and time in a nice circular progressbar
-- it hides itself when in menus
-- flip elements independently
-- test it with a preview image of Beat Saber without having the game to run
+- Change **background and font color like you want**, even with transparency
+- Supports long and short names for song names, song sub names, artist names, and mapper names.
+- Displays current bsr code.
+- Displays current progress of the song in a similar way as [Resilim's overlay](https://github.com/Reselim/beat-saber-overlay).
+- Supports flipping to right or left.
+- Optionally displays BPM, NJS and combo.
 
-## Url - give me the Link:
-It is hosted via HTTP so you can use the IP feature too:
+## How do I use this?
 
-[http://u.unskilledfreak.zone/overlay/freakylay/](http://u.unskilledfreak.zone/overlay/freakylay/)
-
-See [Configuration](#Configuration) for more options. 
-
-## How do I customize it?
-
-**Just double-click somewhere on the page!**
-
-Use the opening options panel to customize the overlay like you want!
-You can close the options panel simply by double-click somewhere else.
-
-## Configuration
-
-The option panel will generate the URL by itself. Copy the URL and insert it into something useful like OBS or other recording or streaming software.
+- You need to install [kOFReadie's BSDataPuller](https://github.com/kOFReadie/BSDataPuller) first.
+- Then grab one of the latest release of this overlay.
+- Unzip the entire folder somewhere you want to keep it.
+- Open the index.html file with your favorite browser.
+- Double-click somewhere on the page. (You can close the settings panel simply by double-clicking anywhere)
+- Customize the overlay to your liking.
+- Copy the bottom url to OBS as a browser source. (Set browser source's width to your stream's horitonzal resolution, and the height to 160 pixels.)
+- Close the page, you don't need to open the index file every time. This is just to do the initial setup.
 
 ### List of all parameters:
 
@@ -40,12 +30,15 @@ The option panel will generate the URL by itself. Copy the URL and insert it int
 |ip=\<ip\>|IP to connect to any game running DataPuller Mod in the local network, default is 127.0.0.1|
 |a|background color in rgba or hex|
 |b|text color in rgba or hex|
-|c|enable short modifier names (Instant Fail <> IF)|
-|d|display previous played BSR key if any|
-|e|enable miss counter|
 |f|do not display BPM|
 |g|do not display NJS|
 |h|do not display Combo|
-|i|display song info on the right side|
-|j|display counter section on the right side|
-|k|display modifiers on the right side|
+
+### Other things
+Feel free to copy this overlay and change it further if you want to!
+
+Also feel free to suggest any changes!
+
+Big thank you to kOFReadie for creating [BSDataPuller](https://github.com/kOFReadie/BSDataPuller).
+
+Big thank you to UnskilledFreak for creating [Freakylay](https://github.com/UnskilledFreak/Freakylay).
